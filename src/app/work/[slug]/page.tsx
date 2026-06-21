@@ -1,8 +1,6 @@
 import { projects } from "@/data/projects";
 import { notFound } from "next/navigation";
-import Image from "next/image";
-import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+
 import { Metadata } from "next";
 import { CinematicPlayer } from "@/components/cinematic-player";
 

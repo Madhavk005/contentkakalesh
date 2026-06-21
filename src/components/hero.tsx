@@ -5,6 +5,14 @@ import { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
+const rotatingPhrases = [
+  "people remember.",
+  "that shift culture.",
+  "you can't ignore.",
+  "that drive action.",
+  "worth sharing."
+];
+
 export const Hero = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -16,13 +24,7 @@ export const Hero = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
   const scale = useTransform(scrollYProgress, [0, 1], [1, 0.9]);
 
-  const rotatingPhrases = [
-    "people remember.",
-    "that shift culture.",
-    "you can't ignore.",
-    "that drive action.",
-    "worth sharing."
-  ];
+
 
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
 

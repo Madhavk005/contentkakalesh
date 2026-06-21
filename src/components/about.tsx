@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, MotionValue } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
 
@@ -8,7 +8,7 @@ const philosophyText = "I view content not as a checklist of deliverables, but a
 
 const words = philosophyText.split(" ");
 
-const Word = ({ children, progress, range }: { children: React.ReactNode, progress: any, range: [number, number] }) => {
+const Word = ({ children, progress, range }: { children: React.ReactNode, progress: MotionValue<number>, range: [number, number] }) => {
   const opacity = useTransform(progress, range, [0.15, 1]);
   return (
     <motion.span style={{ opacity }} className="mr-[1.5vw] lg:mr-[1vw]">

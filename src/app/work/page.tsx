@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { projects } from "@/data/projects";
+import Image from "next/image";
 
 export default function ArchivePage() {
   return (
@@ -46,10 +47,11 @@ export default function ArchivePage() {
                       className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105"
                     />
                   ) : (
-                    <img
+                    <Image
                       src={project.image}
                       alt={project.title}
-                      className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105"
+                      fill
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                   )}
                 </div>

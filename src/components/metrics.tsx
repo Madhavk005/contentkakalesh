@@ -1,7 +1,6 @@
 "use client";
 
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 
 const metrics = [
   { value: "10M+", label: "Content Views" },
@@ -11,18 +10,8 @@ const metrics = [
 ];
 
 export const Metrics = () => {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start end", "end start"],
-  });
-
-  const y1 = useTransform(scrollYProgress, [0, 1], ["0%", "-30%"]);
-  const y2 = useTransform(scrollYProgress, [0, 1], ["0%", "-15%"]);
-
   return (
     <section
-      ref={containerRef}
       className="py-32 bg-foreground text-background overflow-hidden relative"
     >
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-white/[0.03] to-transparent pointer-events-none" />

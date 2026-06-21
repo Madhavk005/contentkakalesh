@@ -49,7 +49,7 @@ export default function ResumePage() {
         {/* Executive Summary */}
         <section className="mb-16">
           <p className="text-xl md:text-2xl font-light leading-relaxed max-w-3xl">
-            I don't just create content. I build stories, systems and experiences that people remember. Operating across the complete content lifecycle—from research and strategy to cinematography and distribution—to convert attention into measurable cultural impact.
+            I don&apos;t just create content. I build stories, systems and experiences that people remember. Operating across the complete content lifecycle—from research and strategy to cinematography and distribution—to convert attention into measurable cultural impact.
           </p>
         </section>
 
@@ -84,7 +84,7 @@ export default function ResumePage() {
                 Led end-to-end production for commercial and documentary campaigns. Managed creative teams, oversaw cinematography, and directed editorial narratives from concept to final delivery.
               </p>
               <ul className="list-disc list-inside text-sm text-muted space-y-1 ml-2">
-                <li>Produced the "Home Away From Home" documentary securing 2M+ views.</li>
+                <li>Produced the &quot;Home Away From Home&quot; documentary securing 2M+ views.</li>
                 <li>Pioneered rapid-turnaround production frameworks for social-first campaigns.</li>
               </ul>
             </div>
