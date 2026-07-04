@@ -8,19 +8,19 @@ import { cn } from "@/lib/utils";
 const experiences = [
   {
     id: "01",
-    year: "2026",
+    year: "2025 — Present",
     role: "Content Strategist",
     description: "Developing comprehensive content architectures for enterprise brands. Focus on audience psychology, platform-specific distribution strategies, and high-impact visual storytelling systems.",
   },
   {
     id: "02",
-    year: "2025",
+    year: "2024 - 2025",
     role: "Creative Producer",
     description: "Led end-to-end production for commercial and documentary campaigns. Managed creative teams, oversaw cinematography, and directed editorial narratives from concept to final delivery.",
   },
   {
     id: "03",
-    year: "2024",
+    year: "2023 - 2024",
     role: "Content Creator",
     description: "Built foundational skills in video editing, shooting, and rapid social media production. Grew early audiences through raw, authentic storytelling formats.",
   },

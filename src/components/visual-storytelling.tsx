@@ -67,6 +67,8 @@ export const VisualStorytelling = () => {
                 loop
                 muted
                 playsInline
+                controlsList="nodownload"
+                onContextMenu={(e) => e.preventDefault()}
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90 group-hover:opacity-100"
               />
               

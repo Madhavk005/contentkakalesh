@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 
 const links = [
-  { name: "Email", href: "mailto:hello@ayushyadav.com" },
-  { name: "LinkedIn", href: "https://linkedin.com" },
-  { name: "Instagram", href: "https://instagram.com" },
-  { name: "Resume", href: "/resume.pdf" },
+  { name: "Email", href: "mailto:iamayushyadav2804@gmail.com" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/ayush-yadav-300b43287/" },
+  { name: "Instagram", href: "https://www.instagram.com/contentkakalesh/" },
+  { name: "Resume", href: "/resume" },
 ];
 
 export const Contact = () => {

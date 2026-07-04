@@ -1,5 +1,30 @@
 export const projects = [
   {
+    id: "jecrc-in-spider-verse",
+    title: "JECRC in Spider-Verse",
+    role: "Creative Production",
+    year: "2026",
+    category: "AI Videos",
+    outcome: "High Engagement",
+    description: "An experimental visual narrative utilizing generative AI tools to reimagine the campus in the iconic Spider-Verse animation style.",
+    image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=2070&auto=format&fit=crop",
+    video: "/jecrc-in-spider-verse.mp4?v=6",
+    platforms: ["Instagram", "YouTube"],
+    challenge: "Maintaining visual consistency and stylized animation aesthetics using AI generation tools.",
+    insight: "AI video generation requires precise prompting and iterative rendering to achieve a specific artistic vision.",
+    strategy: "Blending traditional editing techniques with AI-generated assets to create a seamless, high-retention cinematic experience.",
+    production: {
+      pre: "Conceptualizing the Spider-Verse aesthetic and crafting generative AI prompts.",
+      shoot: "Processing source footage through advanced AI video-to-video pipelines.",
+      post: "Stylized color grading and beat-synced editorial cuts."
+    },
+    results: [
+      { label: "Views", value: "1M+" },
+      { label: "Likes", value: "10K+" },
+    ],
+    learnings: "Generative AI is a powerful tool for visual storytelling when combined with strong editorial direction."
+  },
+  {
     id: "this-is-jecrc-ep-0",
     title: "This Is Jecrc Ep 0",
     role: "Creative Production",
@@ -45,7 +70,7 @@ export const projects = [
     },
     results: [
       { label: "Views", value: "1.6M+" },
-      { label: "Likes", value: "12K+" },
+      { label: "Likes", value: "12.2K+" },
       { label: "Shares", value: "400+" },
     ],
     learnings: "Emotional resonance is the ultimate algorithm hack."
@@ -81,7 +106,7 @@ export const projects = [
     role: "Content Strategy & Production",
     year: "2025",
     category: "Documentary",
-    outcome: "2M+ Views",
+    outcome: "742K+ Views",
     description: "A raw, student-led narrative documenting the transition of finding belonging in an unfamiliar city.",
     image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070&auto=format&fit=crop",
     video: "/home-away.mp4?v=6",
@@ -95,9 +120,9 @@ export const projects = [
       post: "Fast-turnaround edits optimized for high retention."
     },
     results: [
-      { label: "Reach", value: "10M+" },
-      { label: "Engagement", value: "15%" },
-      { label: "Shares", value: "+40%" },
+      { label: "Views", value: "742K+" },
+      { label: "Likes", value: "37.2K+" },
+      { label: "Shares", value: "200+" },
     ],
     learnings: "Authenticity scales faster than production value."
   },

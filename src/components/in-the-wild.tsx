@@ -6,45 +6,44 @@ const campaigns = [
   {
     id: "01",
     name: <>#YehDilDeewana<wbr/>OnlyForJECRC</>,
-    platform: "Instagram Reel",
+    platform: "Instagram",
     role: "Direction & Production",
     metrics: [
       { label: "Views", value: "1.6M+" },
-      { label: "Likes", value: "12K+" },
+      { label: "Likes", value: "12.2K+" },
       { label: "Shares", value: "400+" },
     ]
   },
   {
     id: "02",
-    name: "Tech Product Launch",
-    platform: "LinkedIn Video",
-    role: "Creative Direction",
+    name: "Home Away From Home",
+    platform: "Instagram",
+    role: "Content Strategy & Production",
     metrics: [
-      { label: "Views", value: "1.1M" },
-      { label: "Reach", value: "2.4M" },
-      { label: "Engagement", value: "8%" },
+      { label: "Views", value: "742K+" },
+      { label: "Likes", value: "37.2K+" },
+      { label: "Shares", value: "200+" },
     ]
   },
   {
     id: "03",
-    name: "Documentary Series",
-    platform: "YouTube",
-    role: "Cinematography",
+    name: "Mic Drop @ Alia Bhatt",
+    platform: "Instagram",
+    role: "Creative Production",
     metrics: [
-      { label: "Views", value: "850K" },
-      { label: "Reach", value: "1.5M" },
-      { label: "Engagement", value: "22%" },
+      { label: "Views", value: "17M+" },
+      { label: "Likes", value: "350K+" },
+      { label: "Shares", value: "37K+" },
     ]
   },
   {
     id: "04",
-    name: "Brand Anthem",
-    platform: "Cross-Platform",
-    role: "Producer",
+    name: "Rhythm Poster Reveal",
+    platform: "Instagram",
+    role: "Creative Production",
     metrics: [
-      { label: "Views", value: "3.4M" },
-      { label: "Reach", value: "6M" },
-      { label: "Engagement", value: "11%" },
+      { label: "Views", value: "1.6M+" },
+      { label: "Shares", value: "1K+" },
     ]
   },
 ];

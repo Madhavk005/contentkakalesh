@@ -3,10 +3,9 @@
 import { motion } from "framer-motion";
 
 const metrics = [
-  { value: "10M+", label: "Content Views" },
-  { value: "100+", label: "Videos Produced" },
-  { value: "50+", label: "Campaign Assets" },
-  { value: "20+", label: "Brands & Communities" },
+  { value: "100 M+", label: "Content Views" },
+  { value: "200 +", label: "Videos Produced" },
+  { value: "50 +", label: "Campaign Assets" },
 ];
 
 export const Metrics = () => {

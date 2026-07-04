@@ -39,17 +39,17 @@ export default function ResumePage() {
               Content Strategist & Creative Producer
             </p>
           </div>
-          <div className="text-sm font-mono text-muted space-y-1 text-left md:text-right">
-            <p>ayush@example.com</p>
-            <p>linkedin.com/in/ayushyadav</p>
-            <p>ayushyadav.com</p>
+          <div className="text-sm font-mono text-muted space-y-1 flex flex-col items-start md:items-end">
+            <a href="mailto:iamayushyadav2804@gmail.com" className="hover:text-foreground transition-colors">Email</a>
+            <a href="https://www.linkedin.com/in/ayush-yadav-300b43287/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">LinkedIn</a>
+            <a href="https://www.instagram.com/contentkakalesh/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Instagram</a>
           </div>
         </header>
 
         {/* Executive Summary */}
         <section className="mb-16">
           <p className="text-xl md:text-2xl font-light leading-relaxed max-w-3xl">
-            I don&apos;t just create content. I build stories, systems and experiences that people remember. Operating across the complete content lifecycle—from research and strategy to cinematography and distribution—to convert attention into measurable cultural impact.
+            I don&apos;t just make content—I build stories and experiences that actually stick with people. I love being hands-on with every part of the creative process, from the early brainstorming and camera work to the final edit and hitting publish. For me, it&apos;s all about turning a few seconds of attention into something genuinely memorable.
           </p>
         </section>
 
@@ -63,7 +63,7 @@ export default function ResumePage() {
             <div>
               <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-4 gap-2">
                 <h3 className="font-serif text-3xl">Content Strategist</h3>
-                <span className="font-mono text-sm text-muted">2026 — Present</span>
+                <span className="font-mono text-sm text-muted">2025 — Present</span>
               </div>
               <p className="text-muted leading-relaxed mb-4">
                 Developing comprehensive content architectures for enterprise brands. Focus on audience psychology, platform-specific distribution strategies, and high-impact visual storytelling systems.
@@ -72,18 +72,6 @@ export default function ResumePage() {
                 <li>Architected multi-channel distribution networks yielding millions in organic reach.</li>
                 <li>Conducted deep audience research to inform non-corporate brand narratives.</li>
                 <li>Managed cross-functional teams of editors and shooters.</li>
-              </ul>
-            </div>
-
-            <div>
-              <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-4 gap-2">
-                <h3 className="font-serif text-3xl">Creative Producer</h3>
-                <span className="font-mono text-sm text-muted">2025</span>
-              </div>
-              <p className="text-muted leading-relaxed mb-4">
-                Led end-to-end production for commercial and documentary campaigns. Managed creative teams, oversaw cinematography, and directed editorial narratives from concept to final delivery.
-              </p>
-              <ul className="list-disc list-inside text-sm text-muted space-y-1 ml-2">
                 <li>Produced the &quot;Home Away From Home&quot; documentary securing 2M+ views.</li>
                 <li>Pioneered rapid-turnaround production frameworks for social-first campaigns.</li>
               </ul>
@@ -91,8 +79,18 @@ export default function ResumePage() {
 
             <div>
               <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-4 gap-2">
+                <h3 className="font-serif text-3xl">Creative Producer</h3>
+                <span className="font-mono text-sm text-muted">2024 - 2025</span>
+              </div>
+              <p className="text-muted leading-relaxed mb-4">
+                Led end-to-end production for commercial and documentary campaigns. Managed creative teams, oversaw cinematography, and directed editorial narratives from concept to final delivery.
+              </p>
+            </div>
+
+            <div>
+              <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-4 gap-2">
                 <h3 className="font-serif text-3xl">Content Creator</h3>
-                <span className="font-mono text-sm text-muted">2024</span>
+                <span className="font-mono text-sm text-muted">2023 - 2024</span>
               </div>
               <p className="text-muted leading-relaxed">
                 Built foundational skills in video editing, shooting, and rapid social media production. Grew early audiences through raw, authentic storytelling formats and visual essays.
@@ -125,14 +123,14 @@ export default function ResumePage() {
           </div>
         </section>
 
-        {/* Education (Placeholder) */}
+        {/* Education */}
         <section>
           <h2 className="font-mono text-sm uppercase tracking-widest text-muted mb-8 pb-2 border-b border-black/10">
             Education
           </h2>
           <div className="flex flex-col md:flex-row justify-between md:items-baseline">
-            <h3 className="font-serif text-2xl">B.A. Cinematography & Media Studies</h3>
-            <span className="font-mono text-sm text-muted">2020 — 2024</span>
+            <h3 className="font-serif text-2xl">Bachelor in Technology (B.Tech - CSE)</h3>
+            <span className="font-mono text-sm text-muted">2023 - 2027</span>
           </div>
         </section>
 

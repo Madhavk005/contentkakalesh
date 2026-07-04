@@ -58,7 +58,7 @@ export const About = () => {
           <div className="lg:w-5/12">
             <div className="sticky top-32 w-full aspect-[3/4] overflow-hidden bg-black/5">
               <Image
-                src="/ayush.png"
+                src="/ayush.jpg"
                 alt="Ayush Yadav"
                 fill
                 className="object-cover grayscale hover:grayscale-0 transition-all duration-1000 ease-out"
