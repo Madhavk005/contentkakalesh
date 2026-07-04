@@ -44,9 +44,7 @@ export default function ArchivePage() {
                       loop
                       muted
                       playsInline
-                      controlsList="nodownload"
-                      onContextMenu={(e) => e.preventDefault()}
-                      className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105"
+                      className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105 pointer-events-none"
                     />
                   ) : (
                     <Image

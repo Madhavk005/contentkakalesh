@@ -33,9 +33,7 @@ const HoverVideo = ({ src }: { src: string }) => {
       src={src}
       loop
       playsInline
-      controlsList="nodownload"
-      onContextMenu={(e) => e.preventDefault()}
-      className="object-cover w-full h-full absolute inset-0"
+      className="object-cover w-full h-full absolute inset-0 pointer-events-none"
     />
   );
 };
@@ -164,9 +162,7 @@ export const FeaturedWork = () => {
                     loop
                     muted
                     playsInline
-                    controlsList="nodownload"
-                    onContextMenu={(e) => e.preventDefault()}
-                    className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105"
+                    className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105 pointer-events-none"
                   />
                 ) : (
                   <Image
