@@ -1,65 +1,77 @@
 "use client";
 
+import { motion } from "framer-motion";
+
 const frames = [
   {
     id: "yeh-dil",
     category: "Yeh Dil",
     video: "/yeh-dil.mp4?v=6",
-    className: "md:col-span-2 md:row-span-2 aspect-video md:aspect-auto",
   },
   {
     id: "home-away",
     category: "Home Away",
     video: "/home-away.mp4?v=6",
-    className: "md:col-span-1 md:row-span-1 aspect-square md:aspect-auto",
   },
   {
     id: "aakhiri-chai",
     category: "Aakhiri Chai",
     video: "/aakhiri-chai.mp4?v=6",
-    className: "md:col-span-1 md:row-span-1 aspect-square md:aspect-auto",
   },
   {
     id: "this-is-jecrc",
     category: "This is JECRC",
     video: "/this-is-jecrc-ep-0.mp4?v=6",
-    className: "md:col-span-1 md:row-span-1 aspect-square md:aspect-auto",
   },
   {
     id: "race-day",
     category: "Race Day",
     video: "/race-day-at-rhythm-2026.mp4?v=6",
-    className: "md:col-span-1 md:row-span-1 aspect-square md:aspect-auto",
   },
   {
     id: "trailer-khatam",
     category: "Trailer Khatam",
     video: "/trailer-khatam.-picture-shuru..mp4?v=6",
-    className: "md:col-span-1 md:row-span-1 aspect-square md:aspect-auto",
   },
 ];
 
+// Duplicate the frames array to create a seamless infinite loop
+const scrollingFrames = [...frames, ...frames];
+
 export const VisualStorytelling = () => {
   return (
-    <section className="py-32 bg-black text-white">
-      <div className="container mx-auto px-6 max-w-7xl">
-        <div className="mb-20">
-          <h2 className="text-sm font-medium tracking-wider uppercase text-white/40 mb-4 font-mono">
-            Section 05
-          </h2>
-          <p className="font-serif text-5xl md:text-6xl tracking-tight">
-            Visual Storytelling.
-          </p>
-          <p className="text-xl text-white/60 mt-6 max-w-2xl font-light">
-            A study in light, pacing, and composition. Cinematic frames captured and edited across various disciplines.
-          </p>
-        </div>
+    <section className="py-32 bg-black text-white overflow-hidden">
+      <div className="container mx-auto px-6 max-w-7xl mb-20">
+        <h2 className="text-sm font-medium tracking-wider uppercase text-white/40 mb-4 font-mono">
+          Section 05
+        </h2>
+        <p className="font-serif text-5xl md:text-6xl tracking-tight">
+          Visual Storytelling.
+        </p>
+        <p className="text-xl text-white/60 mt-6 max-w-2xl font-light">
+          A study in light, pacing, and composition. Cinematic frames captured and edited across various disciplines.
+        </p>
+      </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 md:auto-rows-[320px]">
-          {frames.map((frame) => (
+      {/* Endless Scrolling Container */}
+      <div className="relative w-full flex">
+        {/* Left/Right Gradients for smooth fading edges */}
+        <div className="absolute left-0 top-0 bottom-0 w-24 md:w-48 bg-gradient-to-r from-black to-transparent z-10 pointer-events-none" />
+        <div className="absolute right-0 top-0 bottom-0 w-24 md:w-48 bg-gradient-to-l from-black to-transparent z-10 pointer-events-none" />
+
+        <motion.div
+          className="flex gap-4 md:gap-6 w-max pr-4 md:pr-6"
+          animate={{ x: ["0%", "-50%"] }}
+          transition={{
+            ease: "linear",
+            duration: 35,
+            repeat: Infinity,
+          }}
+        >
+          {scrollingFrames.map((frame, index) => (
             <div
-              key={frame.id}
-              className={`group relative overflow-hidden rounded-3xl bg-white/5 border border-white/10 ${frame.className}`}
+              key={`${frame.id}-${index}`}
+              className="group relative overflow-hidden rounded-3xl bg-white/5 border border-white/10 w-[280px] h-[400px] md:w-[350px] md:h-[500px] shrink-0"
             >
               <video
                 src={frame.video}
@@ -82,7 +94,7 @@ export const VisualStorytelling = () => {
               </div>
             </div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

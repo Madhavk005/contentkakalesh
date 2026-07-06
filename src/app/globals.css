@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@import "@flaticon/flaticon-uicons/css/all/all.css";
 @theme {
   --color-background: #FAFAF8;
   --color-foreground: #0A0A0A;
