@@ -61,14 +61,16 @@ export const CinematicPlayer = ({ project }: { project: Project }) => {
             loop
             muted={isMuted}
             playsInline
-            className="object-cover w-full h-full pointer-events-none"
+            controlsList="nodownload"
+            onContextMenu={(e) => e.preventDefault()}
+            className="object-contain w-full h-full"
           />
         ) : (
           <Image
             src={project.image}
             alt={project.title}
             fill
-            className="object-cover"
+            className="object-contain"
             priority
           />
         )}

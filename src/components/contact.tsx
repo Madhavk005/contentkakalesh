@@ -49,7 +49,6 @@ export const Contact = () => {
       <div className="container mx-auto px-6">
         <div className="pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/40">
           <p>© {new Date().getFullYear()} Ayush Yadav. All rights reserved.</p>
-          <p>Designed with intentionality.</p>
         </div>
       </div>
     </section>

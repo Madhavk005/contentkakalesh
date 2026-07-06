@@ -62,11 +62,11 @@ export default function ResumePage() {
           <div className="space-y-12">
             <div>
               <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-4 gap-2">
-                <h3 className="font-serif text-3xl">Content Strategist</h3>
+                <h3 className="font-serif text-3xl">Creative Director & Producer</h3>
                 <span className="font-mono text-sm text-muted">2025 — Present</span>
               </div>
               <p className="text-muted leading-relaxed mb-4">
-                Developing comprehensive content architectures for enterprise brands. Focus on audience psychology, platform-specific distribution strategies, and high-impact visual storytelling systems.
+                Spearheading end-to-end creative visions for high-impact campaigns. Bridging the gap between creative strategy and full-scale production to deliver compelling visual narratives.
               </p>
               <ul className="list-disc list-inside text-sm text-muted space-y-1 ml-2">
                 <li>Architected multi-channel distribution networks yielding millions in organic reach.</li>
@@ -79,21 +79,21 @@ export default function ResumePage() {
 
             <div>
               <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-4 gap-2">
-                <h3 className="font-serif text-3xl">Creative Producer</h3>
+                <h3 className="font-serif text-3xl">Content Strategist</h3>
                 <span className="font-mono text-sm text-muted">2024 - 2025</span>
               </div>
               <p className="text-muted leading-relaxed mb-4">
-                Led end-to-end production for commercial and documentary campaigns. Managed creative teams, oversaw cinematography, and directed editorial narratives from concept to final delivery.
+                Developing comprehensive content architectures for enterprise brands. Focus on audience psychology, platform-specific distribution strategies, and high-impact visual storytelling systems.
               </p>
             </div>
 
             <div>
               <div className="flex flex-col md:flex-row justify-between md:items-baseline mb-4 gap-2">
-                <h3 className="font-serif text-3xl">Content Creator</h3>
+                <h3 className="font-serif text-3xl">Creative Producer</h3>
                 <span className="font-mono text-sm text-muted">2023 - 2024</span>
               </div>
               <p className="text-muted leading-relaxed">
-                Built foundational skills in video editing, shooting, and rapid social media production. Grew early audiences through raw, authentic storytelling formats and visual essays.
+                Led end-to-end production for commercial and documentary campaigns. Managed creative teams, oversaw cinematography, and directed editorial narratives from concept to final delivery.
               </p>
             </div>
           </div>
